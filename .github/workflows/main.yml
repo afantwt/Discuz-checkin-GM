@@ -3,7 +3,7 @@ name: 每日签到
 on:
   schedule:
     # 每天UTC 16:00运行，对应北京时间0:00（北京时间=UTC+8）
-    - cron: '0 16 * * *'
+    - cron: '01 16 * * *'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
